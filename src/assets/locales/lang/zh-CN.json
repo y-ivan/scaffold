@@ -1,0 +1,50 @@
+
+{
+  "back": "返回",  
+  "login": "登录",
+  "register": "注册",
+  "logining": "登录中",
+  "forgotten": "忘记密码？",
+  "title": {
+    "login": "",
+    "mine": "我的",
+    "register": "注册",
+    "forgotten": "忘记密码"
+  },
+  "form": {
+    "phone": {
+      "placeholder": "请输入手机号",
+      "required": "请输入用户手机号",
+      "error": "手机号码格式错误"
+    },
+    "password": {
+      "placeholder": "请输入用户密码",
+      "required": "请输入6-18位密码",
+      "error": "以字母开头, 只能包含字母、数字和下划线"
+    }
+  },
+  "info": {
+    "tel": "电话"
+  },
+  "company": {
+    "name": "公司"
+  },
+  "mine": {
+    "changeBtn": "修改信息",
+    "cellText": {
+      "self": "我的公司",
+      "add": "公司入驻",
+      "join": "加入公司",
+      "private": "私有权限",
+      "email": "绑定邮箱",
+      "setting": "系统设置",
+      "privated": "已开通",
+      "appling": "申请中"
+    }
+  },
+  "lang": {
+    "lang": "语言",
+    "zh-CN": "中文-简体",
+    "en-US": "英语-美国"
+  }
+}

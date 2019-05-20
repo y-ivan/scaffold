@@ -1,0 +1,50 @@
+
+{
+  "back": "back",
+  "login": "login",
+  "register": "register",
+  "logining": "logging in",
+  "forgotten": "forgotten?",
+  "title": {
+    "login": "",
+    "mine": "Mine",
+    "register": "register",
+    "forgotten": "forgotten password"
+  },
+  "form": {
+    "phone": {
+      "placeholder": "enter your mobile phone number",
+      "required": "enter the user's mobile phone number",
+      "error": "Wrong format of mobile phone number"
+    },
+    "password": {
+      "placeholder": "enter your user's password",
+      "required": "Please enter 6-18 bit password",
+      "error": "Start with a letter and include only letters, Numbers, and underscores"
+    }
+  },
+  "info": {
+    "tel": "Tel"
+  },
+  "company": {
+    "name": "Company"
+  },
+  "mine": {
+    "changeBtn": "Modify the info",
+    "cellText": {
+      "self": "My company",
+      "add": "Apply for company",
+      "join": "Join Company",
+      "private": "Private permission",
+      "email": "Binding ema",
+      "setting": "System Settings",
+      "privated": "opened",
+      "appling": "appling"
+    }
+  },
+  "lang": {
+    "lang": "lang",
+    "zh-CN": "china-simple",
+    "en-US": "english-USA"
+  }
+}

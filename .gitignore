@@ -1,0 +1,10 @@
+*.log*
+.cache
+.DS_Store
+.idea
+/dist/
+.vscode
+node_modules
+npm-debug.log*
+yarn.lock
+*.sh

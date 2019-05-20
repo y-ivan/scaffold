@@ -1,0 +1,145 @@
+{
+    "name": "scaffold",
+    "version": "1.0.0",
+    "description": "基于 Vue(2.5) + vuex + vue-router + vue-axios +better-scroll + vant + ES6 的 Vue前端架构",
+    "author": "ivan <https://github.com/y-ivan>",
+    "license": "MIT",
+    "scripts": {
+        "serve": "vue-cli-service serve",
+        "build": "vue-cli-service build",
+        "lint": "vue-cli-service lint"
+    },
+    "dependencies": {
+        "amfe-flexible": "^2.2.1",
+        "async-validator": "^1.11.2",
+        "axios": "^0.18.0",
+        "better-scroll": "^1.15.2",
+        "good-storage": "^1.1.0",
+        "vant": "^1.6.14",
+        "vue": "^2.6.10",
+        "vue-i18n": "^8.11.2",
+        "vue-router": "^3.0.5",
+        "vuex": "^3.1.1"
+    },
+    "devDependencies": {
+        "@vue/cli-plugin-babel": "^3.6.0",
+        "@vue/cli-plugin-eslint": "^3.6.0",
+        "@vue/cli-service": "^3.6.0",
+        "babel-plugin-import": "^1.8.0",
+        "less": "^3.8.1",
+        "less-loader": "^4.1.0",
+        "postcss-pxtorem": "^4.0.1",
+        "vue-template-compiler": "^2.6.10"
+    },
+    "eslintConfig": {
+        "root": true,
+        "env": {
+            "node": true,
+            "es6": true
+        },
+        "extends": [
+            "plugin:vue/essential",
+            "eslint:recommended"
+        ],
+        "rules": {
+            "quotes": [
+                "warn",
+                "double"
+            ],
+            "jsx-quotes": [
+                "warn",
+                "prefer-single"
+            ],
+            "indent": [
+                "warn",
+                2
+            ],
+            "arrow-parens": 0,
+            "no-new": 0,
+            "no-console": 0,
+            "no-tabs": 0,
+            "require-jsdoc": [
+                "warn",
+                {
+                    "require": {
+                        "FunctionDeclaration": true,
+                        "MethodDefinition": true,
+                        "ClassDeclaration": true,
+                        "ArrowFunctionExpression": false,
+                        "FunctionExpression": false
+                    }
+                }
+            ],
+            "lines-around-comment": [
+                "warn",
+                {
+                    "beforeBlockComment": true
+                }
+            ],
+            "camelcase": "warn",
+            "comma-dangle": [
+                "warn",
+                "always-multiline"
+            ],
+            "comma-spacing": [
+                "warn",
+                {
+                    "before": false,
+                    "after": true
+                }
+            ],
+            "array-bracket-spacing": [
+                "warn",
+                "always"
+            ],
+            "func-call-spacing": [
+                "warn",
+                "never"
+            ],
+            "lines-between-class-members": [
+                "warn",
+                "always",
+                {
+                    "exceptAfterSingleLine": true
+                }
+            ],
+            "newline-per-chained-call": [
+                "warn",
+                {
+                    "ignoreChainWithDepth": 2
+                }
+            ],
+            "no-lonely-if": "warn",
+            "no-mixed-spaces-and-tabs": [
+                "warn",
+                "smart-tabs"
+            ],
+            "keyword-spacing": [
+                "warn",
+                {
+                    "before": true
+                }
+            ],
+            "no-multiple-empty-lines": [
+                "warn",
+                {
+                    "max": 1,
+                    "maxEOF": 1
+                }
+            ],
+            "no-trailing-spaces": "warn"
+        },
+        "parserOptions": {
+            "parser": "babel-eslint"
+        }
+    },
+    "postcss": {
+        "plugins": {
+            "autoprefixer": {}
+        }
+    },
+    "browserslist": [
+        "Android >= 4.0",
+        "iOS >= 7"
+    ]
+}
